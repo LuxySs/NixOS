@@ -21,7 +21,6 @@
           specialArgs = {inherit inputs;};
           modules = [ 
             ./hosts/default/configuration.nix
-            ./modules/nixos/emacs.nix
             ./modules/nixos/hyprland.nix
  
           ];
